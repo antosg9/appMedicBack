@@ -2,6 +2,8 @@
 
 Bienvenue sur le backend de l'application appMedic
 
+Voici le lien vers le frontend : [appMedicFront](https://github.com/paulpp78/appMedicFront)
+
 ## Prérequis
 
 Avant de commencer, assurez-vous que Docker est installé sur votre machine. Vous pouvez également utiliser un environnement Python local si vous préférez.
@@ -67,7 +69,3 @@ Assurez-vous que toutes les dépendances de test sont installées dans votre env
 ## Déploiement
 
 Pour déployer l'application, vous pouvez utiliser Docker comme décrit ci-dessus, ou configurer un serveur selon vos besoins spécifiques.
-
-## Aide supplémentaire
-
-Pour toute question ou problème, n'hésitez pas à consulter la documentation ou à contacter l'équipe de développement.
