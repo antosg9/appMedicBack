@@ -2,6 +2,8 @@
 
 Bienvenue sur le backend de l'application appMedic
 
+**AppMedic**, une application conçue pour signaler les médicaments essentiels en cas de difficulté d'approvisionnement.
+
 Voici le lien vers le frontend : [appMedicFront](https://github.com/paulpp78/appMedicFront)
 
 ## Prérequis
