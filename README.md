@@ -1,73 +1,88 @@
-# Backend appMedic
+# 💊 Backend AppMedic
 
-Bienvenue sur le backend de l'application appMedic
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
 
-**AppMedic**, une application conçue pour signaler les médicaments essentiels en cas de difficulté d'approvisionnement.
+## 🎉 Welcome
 
-Voici le lien vers le frontend : [appMedicFront](https://github.com/paulpp78/appMedicFront)
+Welcome to the **AppMedic** backend, an application designed to report essential medicines in case of supply difficulties.
 
-## Prérequis
+Here is the link to the frontend project: [AppMedicFront](https://github.com/paulpp78/AppMedicFront)
 
-Avant de commencer, assurez-vous que Docker est installé sur votre machine. Vous pouvez également utiliser un environnement Python local si vous préférez.
+## 📋 Prerequisites
 
-## Installation des dépendances
+Before starting, ensure that Docker is installed on your machine. Alternatively, you can use a local Python environment if preferred.
 
-### Option 1 : Utilisation de Docker
+## 📦 Install Dependencies
 
-1. Construisez l'image Docker :
+### Option 1: Using Docker
+
+1. Build the Docker image:
 
    ```bash
    docker build -t appmedic-backend .
    ```
 
-2. Exécutez le conteneur Docker :
+2. Run the Docker container:
 
    ```bash
    docker run -p 3000:3000 appmedic-backend
    ```
 
-Votre application backend sera disponible sur `http://localhost:3000`.
+Your backend application will be available at `http://localhost:3000`.
 
-### Option 2 : Environnement Python local
+### Option 2: Local Python Environment
 
-1. Assurez-vous que Python et pip sont installés sur votre machine.
-2. Clonez le dépôt : `git clone git@github.com:paulpp78/appMedic.git`
-3. Naviguez dans le dossier du backend : `cd appMedic/appMedicBack`
-4. Créez et activez un environnement virtuel :
+1. Ensure Python and pip are installed on your machine.
+2. Clone the repository:
+
+   ```bash
+   git clone git@github.com:paulpp78/appMedic.git
+   ```
+
+3. Navigate to the backend folder:
+
+   ```bash
+   cd appMedic/appMedicBack
+   ```
+
+4. Create and activate a virtual environment:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate   # Sur Windows, utilisez `venv\Scripts\activate`
+   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
    ```
 
-5. Installez les dépendances depuis `requirements.txt` :
+5. Install dependencies from `requirements.txt`:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-6. Lancez l'application :
+6. Start the application:
 
    ```bash
    flask run --host=0.0.0.0 --port=3000
    ```
 
-Votre application backend sera disponible sur `http://localhost:3000`.
+Your backend application will be available at `http://localhost:3000`.
 
-## Configuration
+## ⚙️ Configuration
 
-Assurez-vous que toutes les configurations nécessaires (comme les variables d'environnement) sont définies. Vous pouvez créer un fichier `.env` dans le répertoire racine avec les configurations nécessaires.
+Ensure all necessary configurations (such as environment variables) are set. You can create a `.env` file in the root directory with the required configurations.
 
-## Exécution des tests
+## ✅ Running Tests
 
-Pour exécuter les tests unitaires, utilisez la commande suivante :
+To execute unit tests, use the following command:
 
 ```bash
 pytest
 ```
 
-Assurez-vous que toutes les dépendances de test sont installées dans votre environnement.
+Make sure all test dependencies are installed in your environment.
 
-## Déploiement
+## 🌍 Deployment
 
-Pour déployer l'application, vous pouvez utiliser Docker comme décrit ci-dessus, ou configurer un serveur selon vos besoins spécifiques.
+To deploy the application, you can use Docker as described above, or configure a server according to your specific needs.
